@@ -1,0 +1,330 @@
+/*Code for index page */
+
+body{
+    margin: auto;
+    width: 960px;
+    background-color: #ffffff;/* Background color can be adjusted.*/
+    font-size: 20px;
+}
+
+#boss{
+    color:#ff751a;
+    font-family: 'Permanent Marker','Open Sans', Arial, cursive,sans-serif; /* Permanent marker font gives a slightly artistic look to header image.*/
+    margin-top: 0px;
+}
+
+.navmenu {
+    float: left;
+    font-family:'Open Sans', Arial, sans-serif; 
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    height: 620px;
+    width: 200px;
+    color:#595959;
+    background-color: #ffffff;/* Note to self-change back to white when done*/
+}
+
+.navmenu a {
+    display: block;/* Use block to have navigation bar run vertically.*/
+    color: #595959;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+
+li a:hover {
+    background-color: #0000ff;
+    color: #ff751a;
+}
+
+.somewords{
+    float:left;
+    width:300px;
+    height:620px;
+    margin-left:10px;
+    font-family:'Open Sans', Arial, sans-serif;
+}
+
+.imagemask{
+    float:right;
+    height: 620px;
+    width:400px;
+}
+
+.footer{
+    clear: both;
+    position: relative;
+    top:10px;
+    width:900px;
+    font-family:'Permanent Marker','Open Sans', Arial, cursive,sans-serif;
+    text-align: center;
+    color:#ff571a;
+}
+
+/* Bios page coding */
+
+.imageheader {
+  
+   height: 245px;
+   }
+
+.nefi{
+    height:245px;
+}
+
+.color{
+    color:#0000ff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.navbio {
+    display: block;
+    color: #595959;
+    font-family:'Open Sans', Arial, sans-serif; 
+    list-style-type:none; 
+    margin:0;
+    line-height:2.4;
+    height: 580px;
+    width:220px;
+    float:left;
+
+}
+    
+.navbio a{
+    text-decoration: none;
+    color: #595959;
+}
+
+
+.main {
+    background-color
+        height: 700px;
+        width: 740px;
+        float:right;
+    
+}
+
+.mystory{
+    float:left;
+    margin:0px 0px 8px 8px;
+}
+
+
+
+    
+.footertwo {
+    background-color:#ffffff;
+    color:#ff571a;
+    font-family:'Permanent Marker','Open Sans', Arial, cursive,sans-serif; 
+    text-align: center;
+    height: 30px;
+    clear: both;
+    position:relative;
+}
+
+
+.banner{
+height: 245px;
+}
+
+/* Gallery coding */
+
+.navgallery{
+display: block;
+color: #595959;
+    font-family:'Open Sans', Arial, sans-serif; 
+    list-style-type:none; 
+    line-height: 2.4;
+    height: 660px;
+    width:220px;
+    float:left;
+}
+
+.navgallery a{
+    text-decoration: none;
+    color: #595959;
+}
+
+/* Created multiple divs within div id "art" to create a layout grid. */
+#art{
+    height:620px;
+    width: 960px;
+}
+    
+/* Images width and height are fixed. Must edit image dimensions in Pixlr.*/
+
+.one{
+     display:block;
+     width:200px;
+     height:200px;
+     float:left;
+     margin-left:10px;
+     margin-right: 10px;
+      
+ }   
+ 
+ .two{
+  display:block;
+     width:200px;
+     height:200px;
+     float:left;
+     margin-right: 10px;
+}
+
+.three{
+  display:block;
+     width:200px;
+     height:200px;
+     float:left;
+    
+}
+
+.four{
+  display:block;
+     width:200px;
+     height:200px;
+     float:left;
+     margin-left:10px;
+      margin-top: 10px;
+     margin-right:10px;
+}   
+
+.five{
+  display:block;
+     width:200px;
+     height:200px;
+     float:left;
+     margin-top: 10px;
+     margin-right: 10px;
+}
+.six{
+  display:block;
+     width:200px;
+     height:200px;
+     float:left;
+     margin-top: 10px;
+}
+
+.seven{
+  display:block;
+     background-color: magenta;
+     width:200px;
+     height:200px;
+     float:left;
+     margin-top: 10px;
+     margin-left: 10px;
+     margin-right:10px;
+}
+
+.eight{
+  display:block;
+     width:200px;
+     height:200px;
+     float:left;
+     margin-top: 10px;
+     margin-right:10px;
+}
+
+.nine{
+  display:block;
+      width:200px;
+     height:200px;
+     float:left;
+     margin-top: 10px;
+}
+
+
+
+    
+ 
+.footergallery{
+    color:#ff571a;
+    font-family:'Permanent Marker','Open Sans', Arial, cursive,sans-serif; 
+    text-align: center;
+    height: 30px;
+    clear: both;
+    position:relative; 
+}
+
+
+/* Connect page coding */
+
+.thankyou{
+    font-family: 'Permanent Marker','Open Sans', Arial, cursive,sans-serif; 
+    color:#0000ff;
+    text-align: left;
+}
+
+.footertk{
+    text-align: justify;
+    color:#ff571a;
+    font-family:'Permanent Marker','Open Sans', Arial, cursive,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
